@@ -1,6 +1,6 @@
 val Organization = "io.github.kounoike"
 val ProjectName = "gitbucket-html5media-plugin"
-val ProjectVersion = "1.0.0"
+val ProjectVersion = "1.0.1"
 
 lazy val root = project in file(".")
 

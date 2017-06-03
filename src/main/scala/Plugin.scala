@@ -10,7 +10,8 @@ class Plugin extends gitbucket.core.plugin.Plugin {
   override val pluginName: String = "HTML5 media Plugin"
   override val description: String = "Provides HTML5 video/audio player and PDF viewer for GitBucket."
   override val versions: List[Version] = List(
-    new Version("1.0.0")
+    new Version("1.0.0"),
+    new Version("1.0.1")
   )
 
   override def initialize(registry: PluginRegistry, context: ServletContext, settings: SystemSettings): Unit = {
