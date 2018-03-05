@@ -1,20 +1,10 @@
 val Organization = "io.github.kounoike"
 val ProjectName = "gitbucket-html5media-plugin"
-val ProjectVersion = "1.0.1"
-
-lazy val root = project in file(".")
+val ProjectVersion = "1.1.0"
 
 organization := Organization
 name := ProjectName
 version := ProjectVersion
-scalaVersion := "2.12.1"
+scalaVersion := "2.12.4"
 
-libraryDependencies ++= Seq(
-  "io.github.gitbucket" %% "gitbucket"          % "4.13.0" % "provided",
-  "javax.servlet"        % "javax.servlet-api"  % "3.1.0"  % "provided"
-)
-
-scalacOptions := Seq("-deprecation", "-feature", "-language:postfixOps")
-javacOptions in compile ++= Seq("-target", "8", "-source", "8")
-
-useJCenter := true
+gitbucketVersion := "4.22.0"
