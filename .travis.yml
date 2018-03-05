@@ -9,3 +9,12 @@ cache:
 
 script:
   - sbt assembly
+
+deploy:
+  provider: releases
+  api_key: "$GITHUB_TOKEN"
+  skip_cleanup: true
+  file_glob: true
+  file: target/scala-2.12/gitbucket-html5media-plugin*.jar
+  on:
+    tags: true
