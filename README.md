@@ -31,3 +31,7 @@ This plugin introduce to render Video/Audio/PDF by [GitBucket](https://github.co
 ## Tips
 
 Video/Audio/PDF files should be stored with GitLFS.
+
+To enable LFS on GitBucket, you need set base URL in settings. (reffer to [This page](http://gitbucket.github.io/gitbucket-news/gitbucket/2017/01/29/gitbucket-4.9.html)
+
+Client side operations are described in [git-lfs Tutorial](https://github.com/git-lfs/git-lfs/wiki/Tutorial).
