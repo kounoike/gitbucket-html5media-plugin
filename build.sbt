@@ -1,10 +1,6 @@
-val Organization = "io.github.kounoike"
-val ProjectName = "gitbucket-html5media-plugin"
-val ProjectVersion = "1.1.0"
+organization := "io.github.kounoike"
+name := "gitbucket-html5media-plugin"
+version := "1.1.1"
+scalaVersion := "2.12.7"
 
-organization := Organization
-name := ProjectName
-version := ProjectVersion
-scalaVersion := "2.12.4"
-
-gitbucketVersion := "4.22.0"
+gitbucketVersion := "4.29.0"
