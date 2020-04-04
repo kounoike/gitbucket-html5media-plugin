@@ -1,6 +1,6 @@
 organization := "io.github.kounoike"
 name := "gitbucket-html5media-plugin"
-version := "1.1.1"
-scalaVersion := "2.13.0"
+version := "1.2.0"
+scalaVersion := "2.13.1"
 
-gitbucketVersion := "4.32.0"
+gitbucketVersion := "4.33.0"
