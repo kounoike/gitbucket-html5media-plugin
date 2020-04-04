@@ -12,7 +12,9 @@ class Plugin extends gitbucket.core.plugin.Plugin {
   override val versions: List[Version] = List(
     new Version("1.0.0"),
     new Version("1.0.1"),
-    new Version("1.1.0")
+    new Version("1.1.0"),
+    new Version("1.2.0"),
+    new Version("1.2.1")
   )
 
   override def initialize(registry: PluginRegistry, context: ServletContext, settings: SystemSettings): Unit = {
